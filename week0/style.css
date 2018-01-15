@@ -1,1 +1,125 @@
+header {
+background: #870a0c
+url(https://image.ibb.co/ipYcnw/marcel.jpg) ;
+	-webkit-animation: imgheader 20s infinite linear;
+	height: 318px;
+	position: relative;
+	
+
+}
+@-webkit-keyframes imgheader {
+	from { background-position: 0 0; }
+	to   { background-position: -1000px 0;}
+}
+
+ h1{
+position:absolute;
+color:#a37a38;
+font-size:70px;
+font-family: 'Tangerine', cursive;
+   
+ }
+ #container{
+ 	width: 100%;
+   background-color:#d3d3d3;
+}
+.hcolor{
+ font-style: italic;
+  font-size: 30px;
+}
+
+navBar {
+  font-weight: 700;
+  position: fixed;
+  top:0px;
+  left: 0px;
+  background-color: black;
+  width:100%;
+  z-index: 2;
+  padding-bottom: 2px;
+}
+navBar li {
+  font-size: 17px;
+  float:left;
+  list-style-type: none;
+  text-overflow: ellipsis;
+  padding-left:20px;
+  
+}
+li a{
+  color: #a37a38;
+  text-decoration: none;
+}
+a:link{
+  color:#a37a38;;
+}
+li a:hover {
+  background-color: lightgrey;
+}
+
+
+ .PersonalImg {
+ 	width: 200px;
+  height:10%; 
+ 	float: right; 
+  margin-right:11%;
+  margin-top: 6%;
+  border-color: Green;
+  border-width: 3px;
+  border-style: solid;
+  transition: 5s,5s;
+  animation-name: PersonalImg;
+  animation-duration: 10s;
+  filter: grayscale(100%);
+  animation-iteration-count: infinite;
+ 
+ }
+@keyframes PersonalImg {
+    
+    0% {top: 105px; width: 160px;}
+    50% {top: 150px; width:200px;}
+    75% {top: 150px; width:200px;}
+    100%{top: 75px;width:160px;}
+}
+ .PersonalImg:hover { filter: none;top: 225px; width:240px;}
+
+ .paragraphs{
+    text-align: justify;
+    padding-left: 15px;
+   font-size: 20px;
+   padding: 15px;
+
+ }
+.intro{
+  font-style: italic;
+}
+ tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.tableOne{
+	width: 300px;
+	text-align: left;
+	border-collapse: collapse;
+	font-family: arial;
+	border: 1px solid #dddddd;
+	padding: 27px;
+  background-color: #dddddd;
+}
+
+#Albums{
+
+    display: flex;
+    padding: 14px;
+    margin: 20px;
+    justify-content: center;
+}
+.forMoreInfo{
+  list-style-type: none;
+  font-size:20px;
+}
+#videos{
+  display: flex;
+}
 
