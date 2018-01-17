@@ -1,0 +1,104 @@
+body{
+width: 100%;
+background-color:gray
+}
+
+h1{
+  text-align: center;
+  font-size: 60px;
+  color:#911212 ;
+  font-family: 'Engagement', cursive;
+  margin-bottom: 61px;
+  margin-top: 83px;
+
+}
+
+.mainContent{
+      max-width:450px;
+      margin: auto;
+      border-radius: 20px;
+      background-color: lightgray;
+      position:relative;   
+}
+
+
+.HeadTwo {
+	font-size: 35px;
+    padding-left: 10px;
+    padding-top: 20px;
+    color:brown;
+    
+}
+.personalPic{
+	/*float: left;*/
+	width:160px;
+    height: auto;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 15px;
+    margin:15px;top:75px;left:49px;
+    clear: both;
+    position: fixed;
+    transition: 5s,5s;
+    animation-name: wael;
+    animation-duration: 8s;
+    filter: grayscale(100%);
+}
+
+@keyframes wael {
+    
+    0% {top: 75px; width: 160px;}
+    50% {top: 150; width: 240px;}
+    75% {top: 225px; width:240px;}
+    100%{top: 75px;width:160px;}
+}
+
+.personalPic:hover { 
+	filter: none;top: 225px;
+    width:240px;
+}
+
+.paragraph {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+        font-size: 20px;
+}
+.list {
+        padding-left: 27px;
+        padding-right: 17px;
+        padding-bottom: 16px;
+        font-size: 20px;
+}
+
+.fontLi {
+	    float:left;list-style: none;
+	    text-overflow: ellipsis;
+        padding-left: 12px;
+        padding-right: 12px;
+        font-size: 10px;
+}
+
+.click {
+	text-decoration: blink;
+    color: black;
+    transition: 5s;
+    font-size: 12px;
+}
+
+.click:hover {
+	background:brown;
+}
+
+.navBar {
+	position: fixed;
+	top:0px;
+	left: 0px;
+	background:grey;
+	width:100%;
+	z-index: 2;
+}
+hr { margin: auto;
+     max-width:400px;
+}
+
