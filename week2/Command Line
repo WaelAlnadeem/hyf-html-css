@@ -1,0 +1,209 @@
+tcswh@LOL MINGW64 /
+$ cd
+
+tcswh@LOL MINGW64 ~
+$ mkdir Wael
+
+tcswh@LOL MINGW64 ~
+$ cd Wael
+
+tcswh@LOL MINGW64 ~/Wael
+$ touch blank
+
+tcswh@LOL MINGW64 ~/Wael
+$ cd blank
+bash: cd: blank: Not a directory
+
+tcswh@LOL MINGW64 ~/Wael
+$ cd
+
+tcswh@LOL MINGW64 ~
+$ cd wael
+
+tcswh@LOL MINGW64 ~/wael
+$ touch greetings.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ echo "hallo"> greetings.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ cat greetings.txt
+hallo
+
+tcswh@LOL MINGW64 ~/wael
+$ echo "hallo">> greetings.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ echo"hallo">> greetings.txt
+bash: echohallo: command not found
+
+tcswh@LOL MINGW64 ~/wael
+$ cat greetings.txt
+hallo
+hallo
+
+tcswh@LOL MINGW64 ~/wael
+$ echo "hallo">> greetings.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ echo "hallo" >> greetings.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ echo "hallo" >> greetings.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ cat greetings.txt
+hallo
+hallo
+hallo
+hallo
+hallo
+
+tcswh@LOL MINGW64 ~/wael
+$ cat greetings.txt > 1.txt
+
+tcswh@LOL MINGW64 ~/wael
+$  cat greetings.txt
+hallo
+hallo
+hallo
+hallo
+hallo
+
+tcswh@LOL MINGW64 ~/wael
+$ ls
+1.txt  blank  greetings.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ cat greetings.txt > 2.txt | cat greetings.txt > 3.txt | cat greetings.txt > 4.txt | cat greetings.txt > 5.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  greetings.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ cat 1.txt
+hallo
+hallo
+hallo
+hallo
+hallo
+
+tcswh@LOL MINGW64 ~/wael
+$ cat 2.txt
+hallo
+hallo
+hallo
+hallo
+hallo
+
+tcswh@LOL MINGW64 ~/wael
+$ cat 3.txt
+hallo
+hallo
+hallo
+hallo
+hallo
+
+tcswh@LOL MINGW64 ~/wael
+$ cat 4.txt
+hallo
+hallo
+hallo
+hallo
+hallo
+
+tcswh@LOL MINGW64 ~/wael
+$ cat 5.txt
+hallo
+hallo
+hallo
+hallo
+hallo
+
+tcswh@LOL MINGW64 ~/wael
+$ touch pets.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ pwd
+/c/Users/tcswh/wael
+
+tcswh@LOL MINGW64 ~/wael
+$ cat wael
+cat: wael: No such file or directory
+
+tcswh@LOL MINGW64 ~/wael
+$ echo "cat" > pets.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ echo "dogs">> pets.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ cat pets.txt
+cat
+dogs
+
+tcswh@LOL MINGW64 ~/wael
+$ echo "hamster">> pets.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ cat pets.txt
+cat
+dogs
+hamster
+
+tcswh@LOL MINGW64 ~/wael
+$ touch comands.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ echo "ls" > commands.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ echo "pwd" >> commands.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ cat commands.txt
+ls
+pwd
+
+tcswh@LOL MINGW64 ~/wael
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  comands.txt  commands.txt  greetings.txt  pets.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ touch lovely command.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ cat pets.txt commands.txt | sort| uniq > lovely command.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ cat lovely command
+cat: command: No such file or directory
+
+tcswh@LOL MINGW64 ~/wael
+$ cat lovely command.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  comands.txt  command.txt  commands.txt  greetings.txt  lovely  pets.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ touch lovelyCommands.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ ls
+1.txt  2.txt  3.txt  4.txt  5.txt  blank  comands.txt  command.txt  commands.txt  greetings.txt  lovely  lovelyCommands.txt  pets.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ cat pets.txt commands.txt |sort| uniq > lovelyCommand.txt
+
+tcswh@LOL MINGW64 ~/wael
+$ cat lovelyCommand.txt
+cat
+dogs
+hamster
+ls
+pwd
+
+tcswh@LOL MINGW64 ~/wael
+$
