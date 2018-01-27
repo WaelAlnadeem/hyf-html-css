@@ -107,9 +107,6 @@ justify-content: space-between;
 	}
 
 @media screen  and (min-width: 901px) {
-	body{
-		background-color: grey;
-	}
   	#grid-floats .grid-item,#grid-flex .grid-item {
   		width: 21%;
   		height: 570px;
