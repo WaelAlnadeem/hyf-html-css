@@ -1,0 +1,498 @@
+*{
+	box-sizing: border-box;
+
+}
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.logo{
+	width: 21%;
+	display: block;
+	margin: 0 auto;
+	margin-left: 48%;
+}
+.allNav{
+		float: left;
+		width: 100%;
+		background-color: #01689b;
+
+}
+
+.home{
+	float: left;
+	width: 34%;
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	padding-bottom: 4.4px;
+}
+
+nav li { 
+	float:left;
+	list-style: none;
+	text-overflow: ellipsis;
+	width: calc(66% / 6 - -4px);
+	font-size: 18px;
+	padding-bottom: 11px;
+
+}
+.NavB{
+	color: white;
+	text-decoration: none;
+}
+h3{
+	display: none;
+}
+.headerImg{
+	width: 100%;
+	background: url("https://www.rijksoverheid.nl/binaries/widescreen/content/gallery/rijksoverheid/attentie-afbeeldingen/onderwerpen/h/huurwoning.jpg");
+	background-repeat: no-repeat;
+	padding: 46px;
+    margin: 0 auto;
+}
+.NavBar{
+	
+	color:#01689b;
+	text-decoration: none;
+}
+.mainList{
+	background-color: white;
+	margin-left: 8%;
+	width:31%;
+    font-size: 20px;
+    list-style: none;
+    padding: 29px;
+
+}
+.searchInput{
+	float: right;
+	width: 25%;
+	display: inline-block;
+	margin: 64px;
+    margin-right: 172px;
+}
+input[type=text] {
+    width: 96%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button{
+
+	position: absolute;
+    width: 4%;
+    height: 41px;
+    background-color: black;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #45a049;
+}
+#MainContent{
+	background: #f3f3f3;
+	border-color: #f3f3f3;
+}
+
+
+.MainContent {
+	float: left;
+	min-height: 300px;
+	padding: 12px;
+	width: calc(100% / 4);
+	background: #f3f3f3;
+	text-decoration: none;
+	color: #01689b;
+}
+
+#News{
+	width: 100%;	
+}
+
+.nieuws{
+	float: left;
+	width: 100%;
+	font-size: 22px;
+	color: black;
+	font-family: monospace;
+    font-weight: bolder;
+    margin-left: 63px;
+}
+.secSection {
+	width: 33%;
+	float: left;
+	list-style: none;
+	text-align: left;
+    font-size: 21px;
+    margin: 1px;
+    padding: 17px;
+    min-height: 500px;
+	
+}  
+
+.secSection a {
+	width: 100%;
+	text-decoration: none;
+	color: #01689b;
+}
+p{
+	color: black;
+}
+
+.thirdSection{
+	width: 33%;
+	float: left;
+	list-style: none;
+	text-align: left;
+    font-size: 21px;
+    margin: 1px;
+    padding: 17px;
+    min-height: 570px;
+    background-color: white;
+	
+
+}
+.thirdSection a{
+	width: 100%;
+	text-decoration: none;
+	color: #01689b;
+	
+}
+.meerNews{
+	float: left;
+	width: 100%;
+	font-size: 22px;
+	color: #01689b;
+	font-family: monospace;
+    font-weight: bolder;
+    margin-left: 63px;
+}
+.Vragen{
+	float: left;
+	margin:30px; 
+	width: 29%;
+	height: 39%;
+	text-align: center;
+	list-style: none;
+	border: 1px solid #b2d7ee;
+	border-radius: 4px;
+}
+.Vragen a{
+	width: 100%;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+	color: #01689b;
+}
+.footer{
+		float: left;
+		width: 100%;
+		background-color: #01689b;
+}
+.Rijksoverheid{
+	float: left;
+	width: 40%;
+}
+
+.Rijksoverheid h2{	
+    margin: 6%;
+    margin-left: 9%;
+    color: white;
+
+}
+
+.service{
+	float: left;
+	width: 30%;
+	background-color: none;
+}
+.site{
+
+	display:inline-block;
+	width: 30%;
+	background-color: none;
+}
+.site li, .service li{
+		list-style: none;
+		text-decoration: none;
+		color: white;
+		margin: 9px;
+}
+.site a, .service a{
+		text-decoration: none;
+		color: white;
+}
+.languages{
+	float: left;
+	list-style: none; 
+	display: inline-block;
+	position: center;
+	
+
+}
+.languages a{
+	float: left;
+	color: #007bc7;
+	text-decoration: none;
+	border: 2px solid #b2d7ee; 
+    padding: 18px;
+    margin-left: 90px;
+    margin-top: 20px;
+
+}
+
+
+ /* for mobile*/
+
+@media screen and (max-width: 480px) {
+body{
+		width: 100%;
+			margin: 0;
+			padding: 0;
+	}
+	.logo{
+		width: 100%;
+	}
+	.allNav{
+		padding: 13px
+
+	}
+	.home{
+		width: 100%;
+		font-size: 34px;
+		margin-bottom: 20px;
+	}
+	.NavB{
+		display: none;
+	}
+	
+	.headerImg{
+		width: 100%;
+	}
+	.mainList{
+		width: 100%;
+		font-size: 23px;
+		text-align: center;
+		margin: 0;
+		margin-top: 70px;
+		padding: 0;
+
+	}
+	.searchInput{
+		float: left;
+		position: relative;
+		margin-top: -46px;
+		margin-left: 1px;
+		width: 88%;
+		padding: 0;
+		margin-bottom: 11px;
+
+	}
+
+	button{
+		float: left;
+		width: 14%;
+	}
+
+	.MainContent{
+	width: 100%;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    padding-left: 74px;
+
+	}
+	.secSection{
+		width: 100%;
+		font-size: 20px;
+		text-align: left;
+
+	}
+	.secSection a {
+	width: 100%;
+	text-decoration: none;
+	color: #01689b;
+}
+	.secSection img{
+		width: 100%;
+
+	}
+	.nieuws{
+
+		font-size: 2.625rem;
+	}
+	.thirdSection{
+		width: 100%;
+		font-size: 22px;
+}
+.vragen{
+	width: 100%;
+	margin: 0px; 
+	margin-top: 25px;
+    margin-bottom: 26px;
+}
+.vragen a{
+	font-size: 20px;
+}
+.Rijksoverheid{
+	width: 100%;
+	font-size: 11px;
+	background: #01689b;
+}
+.Rijksoverheid h2{
+	color: white;
+}
+.footer{
+	width: 100%;
+}
+.site ,.service{
+	width: 50%;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+	
+.languages{
+	float: left;
+    font-size: 11px;
+    text-align: center;
+}
+
+	.languages a{
+	float: left;
+    margin: 9px;
+
+	}
+
+}
+
+/*for Tap*/
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+	.logo{
+		width: 100%;
+	}
+	.allNav{
+		padding: 13px
+
+	}
+	.home{
+		width: 100%;
+		font-size: 34px;
+	}
+	.NavB{
+		float: ;
+	}
+	h3{
+	display: none;
+
+	}
+	nav li{
+		margin-left: 38px;
+	}
+
+	.headerImg{
+		width: 100%;
+	}
+	.mainList{
+		width: 40%;
+		font-size: 23px;
+		text-align: center;
+		margin: 0;
+		margin-top: 70px;
+		padding: 0;
+
+	}
+	.searchInput{
+		float: right;
+		width: 25%;
+		padding: 0;
+		margin-right: 1px;
+		margin-bottom: 11px;
+
+	}
+
+	button{
+		float: right;
+		width: 5%;
+	}
+
+	.MainContent{
+	width: 50%;
+	min-height: 231px;
+    margin: 0;
+    padding: 0;
+    padding-left: 74px;
+
+	}
+	.secSection{
+		width: 49%;
+		font-size: 20px;
+		text-align: left;
+
+	}
+	.secSection a {
+	width: 50%;
+	text-decoration: none;
+	color: #01689b;
+}
+	.secSection img{
+		width: 100%;
+
+	}
+	.nieuws{
+
+		font-size: 2.625rem;
+	}
+	.thirdSection{
+		width: 49%;
+		font-size: 22px;
+		min-height: 603px;
+}
+.vragen{
+	width: 37%;
+	margin: 18px; 
+	margin-top: 25px;
+    margin-bottom: 26px;
+}
+.vragen a{
+	font-size: 20px;
+}
+.Rijksoverheid{
+	width: 60%;
+	font-size: 14px;
+	margin-top: 50px;
+	background: #01689b;
+}
+.Rijksoverheid h2{
+	color: white;
+}
+.footer{
+	width: 100%;
+}
+.site ,.service{
+	width: 20%;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+	
+.languages{
+	float: left;
+    font-size: 11px;
+    text-align: center;
+}
+
+	.languages a{
+	float: left;
+    margin: 9px;
+
+	}
+
+}
+
+
