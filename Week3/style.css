@@ -70,7 +70,7 @@ h3{
 .searchInput{
 	float: right;
 	width: 25%;
-	display: inline-block;
+	display: block;
 	margin: 64px;
     margin-right: 172px;
 }
@@ -229,7 +229,7 @@ p{
 .languages{
 	float: left;
 	list-style: none; 
-	display: inline-block;
+	display:block;
 	position: center;
 	
 
@@ -384,9 +384,7 @@ body{
 		width: 100%;
 		font-size: 34px;
 	}
-	.NavB{
-		float: ;
-	}
+	
 	h3{
 	display: none;
 
